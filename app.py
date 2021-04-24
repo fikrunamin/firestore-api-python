@@ -4,7 +4,7 @@ from firebase_admin import credentials
 from firebase_admin import firestore
 
 app = Flask(__name__)
-cred = credentials.Certificate('tutorial-flutter-942ec-firebase-adminsdk-lne1a-43b20f6a10.json')
+cred = credentials.Certificate('tesmasjid-firebase-adminsdk-n042m-be8b1fb7eb.json')
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
